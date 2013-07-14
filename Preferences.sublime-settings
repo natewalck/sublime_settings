@@ -1,0 +1,26 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Wombat.tmtheme",
+	"file_exclude_patterns":
+	[
+		"*.png",
+		"*.DS_Store"
+	],
+	"folder_exclude_patterns":
+	[
+		"*.bundle",
+		"*.app",
+		"*.git",
+		"*.pkg"
+	],
+	"font_face": "Inconsolata",
+	"font_size": 16.0,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"vintage_start_in_command_mode": true
+}
