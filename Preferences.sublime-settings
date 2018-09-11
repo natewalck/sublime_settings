@@ -1,12 +1,37 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Wombat.tmtheme",
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (Flake8Lint) (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.png",
-		"*.DS_Store"
+		"*.DS_Store",
+		"*.pkg",
+		"*.mpkg"
 	],
+	"flake8lint":
+	{
+		"ignore":
+		[
+			"D100",
+			"D101",
+			"D102",
+			"I100"
+		],
+		"ignore_files":
+		[
+		],
+		"pep8": true,
+		"pep8_max_line_length": 119,
+		"pydocstyle": true,
+		"pyflakes": true,
+		"python_interpreter": "auto",
+		"select":
+		[
+		]
+	},
 	"folder_exclude_patterns":
 	[
 		"*.bundle",
@@ -14,13 +39,25 @@
 		"*.git",
 		"*.pkg"
 	],
-	"font_face": "Inconsolata",
-	"font_size": 16.0,
+	"font_face": "Hack",
+	"font_size": 14.0,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintage"
 	],
+	"rulers":
+	[
+		80
+	],
+	"show_full_path": true,
+	"status_bar_brighter": true,
 	"tab_size": 4,
+	"tabs_small": true,
+	"theme": "Oceanic Next.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": true
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true,
+	"vintageous_use_ctrl_keys": true
 }
